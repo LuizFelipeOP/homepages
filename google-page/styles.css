@@ -1,0 +1,9 @@
+
+.header{
+    width: 100%;
+    background-color: darkgrey;
+}
+
+.search-wrapper{
+    display: flex;
+}
