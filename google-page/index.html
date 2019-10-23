@@ -5,26 +5,46 @@
         <link href="styles.css" rel="stylesheet">
     </head>
     <body>
-        <div class="header">
-            <input type="submit" value="Fazer login">
-            #
-            <a href="#">Imagens</a>
-            <a href="#">Gmail</a>
-            
-            
-        </div>
+
+        <header>    
+            <div class="header-itens">
+                <a href="#">Gmail</a>
+                <a href="#">Imagens</a>
+                
+                <input type="submit" id="sign-in" value="Fazer login">
+            </div>
+        </header>
+
         <div class="search-wrapper">
-            <div class="content-image">
+            <div class="logo">
                 <img src="img/google_logo.png" alt="">
             </div>
             
-            <input type="text" name="search">
+            <div class="seach-bar">
+                    <input type="text" id="search" >
+            </div>
+
             <div class="button-wrapper">
-                <input type="submit" value="Pesquisa Google">
-                <input type="submit" value="Estou com sorte">
+                <input type="submit" class="button" value="Pesquisa Google">
+                <input type="submit" class="button" value="Estou com sorte">
             </div>
             
         </div>
+
+        <footer>
+            <ul id="footer-left">
+                <li> <a href="#"></a>Publiicidade</li>
+                <li> <a href="#"></a>Negócios</li>
+                <li> <a href="#"></a>Sobre</li>
+                <li> <a href="#"></a>Como funciona a Pesquisa</li>
+            </ul>
+
+            <ul id="footer-right">
+                <li> <a href="#"></a>Privacidade</li>
+                <li> <a href="#"></a>Termos</li>
+                <li> <a href="#"></a>Configurações</li>
+            </ul>
+        </footer>
         
     </body>
 </html>
